@@ -54,9 +54,9 @@ FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
   	PRIMARY KEY (emp_no)
 );
 
-select * from departments;
-select * from dept_emp;
-select * from employees;
-select * from managers;
-select * from salaries;
-select * from titles;
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM employees;
+SELECT * FROM managers;
+SELECT * FROM salaries;
+SELECT * FROM titles;
